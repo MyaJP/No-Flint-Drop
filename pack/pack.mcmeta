@@ -1,0 +1,43 @@
+{
+  "pack": {
+    "description": "No Flint Drop: gravel never drops flint / craft 1 gravel into 1 flint",
+    "pack_format": 15,
+    "supported_formats": [
+      4,
+      121
+    ],
+    "min_format": 4,
+    "max_format": 121
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "overlay_1_20_5",
+        "formats": [
+          41,
+          47
+        ],
+        "min_format": 41,
+        "max_format": 47
+      },
+      {
+        "directory": "overlay_1_21",
+        "formats": [
+          48,
+          56
+        ],
+        "min_format": 48,
+        "max_format": 56
+      },
+      {
+        "directory": "overlay_1_21_2",
+        "formats": [
+          57,
+          121
+        ],
+        "min_format": 57,
+        "max_format": 121
+      }
+    ]
+  }
+}
